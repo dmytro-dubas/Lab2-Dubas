@@ -1,0 +1,14 @@
+# Results
+
+| Metric | Baseline (-O0) | Optimized (-O3 -march=native -ffast-math) | Delta |
+|---|---|---|---|
+| Wall time (s) | 51.950 | 6.260 | -87.9% |
+| User time (s) | 35.860 | 4.120 | -88.5% |
+| Max RSS (MB) | 49.9 | 49.9 | -0.0% |
+| Cycles (G) | 29.62 | 3.63 | -87.8% |
+| Instructions (G) | 44.39 | 4.89 | -89.0% |
+| IPC | 1.50 | 1.35 | -10.1% |
+| Branch miss (%) | 0.21 | 0.19 | -9.1% |
+| System energy (J) | 181.980 | 23.120 | -87.3% |
+| Program-only energy (J) | 12.679 | 2.985 | -76.5% |
+| Avg power (W) | 3.99 | 4.27 | +6.8% |
